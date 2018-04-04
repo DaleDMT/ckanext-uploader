@@ -1,0 +1,15 @@
+{% extends "page.html" %}
+
+{% block secondary_content %}
+    <section class="module module-narrow module-shallow">
+
+        {% if c.userobj.sysadmin %}
+            <div class="module-content">
+                <p class="action">
+                    UPLOAD FORM
+                </p>
+            </div>
+        {% endif %}
+    </section>
+
+{% endblock %}
